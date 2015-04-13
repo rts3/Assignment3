@@ -41,7 +41,7 @@ public class CarClass2 {
 		return (this.CarColor ==otherObjects.CarColor)&&(this.HorsePow ==otherObjects.HorsePow)&&(this.EngSz ==otherObjects.EngSz);
 	}
 	public String toString(){
-		return ""+ this.CarColor+", has a "+this.EngSz+" liter engine, and horse power measured around "+this.HorsePow+" hp";
+		return "This car is"+ this.CarColor+", has a "+this.EngSz+" liter engine, and horse power measured around "+this.HorsePow+" hp";
 	}
 	
 }

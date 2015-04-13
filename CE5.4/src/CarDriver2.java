@@ -25,9 +25,11 @@ public class CarDriver2 {
 		CarClass2 Car1 = new CarClass2 (colorCar,HPA,ESA);
 		CarClass2 Car2 = new CarClass2 (colorCar2,HPA2,ESA2);
 		CarClass2 Car3 = new CarClass2 (colorCar3,HPA3,ESA3);
+		CarClass2 Car4 = new CarClass2 (colorCar,HPA,ESA);
 		JOptionPane.showMessageDialog(null,"Compare the first and second car:"+Car1.equals(Car2));
 		JOptionPane.showMessageDialog(null,"Compare the second and third car:"+Car2.equals(Car3));
 		JOptionPane.showMessageDialog(null,"Compare the first and third car:"+Car1.equals(Car3));
+		
 		JOptionPane.showMessageDialog(null,Car1);
 		JOptionPane.showMessageDialog(null,Car2);
 		JOptionPane.showMessageDialog(null,Car3);
